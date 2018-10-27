@@ -56,6 +56,8 @@ public class binaryconverter implements ActionListener {
 	public void actionPerformed(ActionEvent e) {
 		// TODO Auto-generated method stub
        String input = guy.getText();
-       convert(input);
+       ;
+       
+       System.out.println(convert(input));
 	}
 }
